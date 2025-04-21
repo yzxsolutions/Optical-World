@@ -606,6 +606,32 @@ label {
     object-fit: contain;
   }
   
+  .whatsapp-float {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 25px;
+    z-index: 999;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+    background-color: #20c15a;
+  }
+  
+  .whatsapp-icon {
+    color: white;
+  }
 
 /* Bootstrap 5 */
 .container {
