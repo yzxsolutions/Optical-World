@@ -574,6 +574,8 @@ label {
 
 
 /* CSS */
+
+
 .logo-box {
     width: 80px; /* or whatever size fits your design */
     height: auto;
@@ -606,7 +608,8 @@ label {
     object-fit: contain;
   }
   
-  .whatsapp-float {
+  /* WhatsApp Floating Button */
+.whatsapp-float {
     position: fixed;
     bottom: 80px;
     right: 20px;
@@ -632,6 +635,8 @@ label {
   .whatsapp-icon {
     color: white;
   }
+  
+  
 
 /* Bootstrap 5 */
 .container {
