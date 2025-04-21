@@ -572,6 +572,22 @@ label {
     margin: 0 auto;
 }
 
+
+/* CSS */
+.logo-img {
+    width: 30px;
+    height: 80px;
+    border-radius: 25%;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+}
+.logo-box {
+    max-width: 80px;
+    overflow: hidden;
+}
+
+
 /* Bootstrap 5 */
 .container {
     max-width: 1200px;
