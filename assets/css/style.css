@@ -636,6 +636,113 @@ label {
     color: white;
   }
   
+
+
+  .team-two {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .team-two__header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .team-two__header .sub-title h5 {
+    color: #00a8a8;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .team-two__header h2 {
+    font-size: 32px;
+    line-height: 1.4;
+    color: #222;
+  }
+  
+  .team-two__members {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .team-two__member {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  }
+  
+  .team-two__image {
+    position: relative;
+  }
+  
+  .team-two__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .team-two__socials {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    background: rgba(255,255,255,0.9);
+    padding: 6px 12px;
+    border-radius: 20px;
+  }
+  
+  .team-two__socials a {
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .team-two__content {
+    padding: 20px;
+  }
+  
+  .team-two__content h3 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .team-two__content p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+
+  .instagram-float {
+    position: fixed;
+    bottom: 150px; /* Adjust this if WhatsApp is at bottom: 40px */
+    right: 20px;
+    background-color: #E1306C;
+    color: white;
+    border-radius: 50%;
+    padding: 16px;
+    font-size: 22px;
+    z-index: 1000;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  .instagram-float:hover {
+    background-color: #C13584;
+    text-decoration: none;
+  }
+  
+  .instagram-icon {
+    color: white;
+  }
+  
   
 
 /* Bootstrap 5 */
