@@ -25,6 +25,65 @@
     <link rel="stylesheet" href="assets/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+    /* Contact Form Card */
+    .contact-two__inner-box {
+        background: #fff;
+        border-radius: 18px;
+        box-shadow: 0 8px 32px rgba(60, 60, 120, 0.10);
+        padding: 40px 30px 30px 30px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    /* Input and Textarea Styles */
+    .contact-one__input-box input,
+    .contact-one__input-box textarea {
+        width: 100%;
+        padding: 14px 18px;
+        border: 1.5px solid #e0e0e0;
+        border-radius: 8px;
+        background: #f8f9fa;
+        font-size: 1rem;
+        margin-bottom: 18px;
+        transition: border-color 0.3s, box-shadow 0.3s;
+        outline: none;
+        resize: none;
+    }
+
+    .contact-one__input-box input:focus,
+    .contact-one__input-box textarea:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 0 2px rgba(0,123,255,0.10);
+        background: #fff;
+    }
+
+    /* Button Style */
+    .contact-one__btn-box .ogency-btn {
+        background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+        color: #fff;
+        border: none;
+        border-radius: 25px;
+        padding: 12px 36px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        box-shadow: 0 4px 16px rgba(0,123,255,0.10);
+        transition: background 0.3s, transform 0.2s;
+        cursor: pointer;
+    }
+
+    .contact-one__btn-box .ogency-btn:hover {
+        background: linear-gradient(90deg, #0056b3 0%, #00aaff 100%);
+        transform: translateY(-2px) scale(1.03);
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+        .contact-two__inner-box {
+            padding: 20px 10px;
+        }
+    }
+    </style>
 </head>
 
 <a href="https://wa.me/919380799742" class="whatsapp-float" target="_blank"></a>
@@ -225,37 +284,37 @@
                     <div class="container">
                         <div class="contact-two__inner">
                             <div class="title-box">
-                                <h2>Let’s Get in Touch</h2>
+                                <h2>Let's Get in Touch</h2>
                                 <p>Your email address will not be published. Required fields are marked *</p>
                             </div>
                             <div class="contact-two__inner-box">
-                                <form action="https://script.google.com/macros/s/AKfycbwLos-cyinRoAGN7IPyP1BfE9wG0vlsdxC8DsxPVsylB7XZkj037xh04yNDrY-cUGOA/exec" method="post" class="contact-one__form contact-form-validated" novalidate="novalidate">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="contact-one__input-box">
-                                        <input type="text" placeholder="Your name" name="Your name">
+                                <form action="https://script.google.com/macros/s/AKfycbwLos-cyinRoAGN7IPyP1BfE9wG0vlsdxC8DsxPVsylB7XZkj037xh04yNDrY-cUGOA/exec" method="post" class="contact-form" novalidate="novalidate">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Your name" name="Your name" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Email address" name="Email address" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Phone" name="Phone" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <textarea name="Write Comment" class="form-control" placeholder="Write Comment" rows="4" required></textarea>
+                                            </div>
+                                            <div class="form-group text-center">
+                                                <button type="submit" class="ogency-btn">Send a Message</button>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="contact-one__input-box">
-                                        <input type="email" placeholder="Email address" name="Email address">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="contact-one__input-box">
-                                        <input type="text" placeholder="Phone" name="Phone">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="contact-one__input-box text-message-box">
-                                        <textarea name="Write Comment" placeholder="Write Comment"></textarea>
-                                    </div>
-                                    <div class="contact-one__btn-box">
-                                        <button type="submit" class="ogency-btn">Send a Message</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
+                                </form>
                             </div>
                         </div>
                     </div>

@@ -5792,3 +5792,92 @@ Project Four Css
     display: block;
     padding-top: 0px;
 }
+
+/* Contact Form Styles */
+.contact-form {
+    padding: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 25px;
+}
+
+.contact-form .form-control {
+    height: 55px;
+    padding: 10px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.contact-form .form-control:focus {
+    border-color: var(--thm-primary);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.15);
+    background-color: #fff;
+}
+
+.contact-form textarea.form-control {
+    height: 150px;
+    resize: none;
+    padding-top: 15px;
+}
+
+.contact-form .ogency-btn {
+    background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+}
+
+.contact-form .ogency-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.3);
+    background: linear-gradient(90deg, #0056b3 0%, #00aaff 100%);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #999;
+    font-size: 14px;
+}
+
+.contact-two__inner-box {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .contact-two__inner-box {
+        padding: 20px;
+    }
+    
+    .contact-form .form-group {
+        margin-bottom: 20px;
+    }
+}
+
+/* Form validation styles */
+.contact-form .form-control:invalid:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.15);
+}
+
+.contact-form .form-control:valid:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.15);
+}
